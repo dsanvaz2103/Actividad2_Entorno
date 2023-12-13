@@ -1,13 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Para cambiar este encabezado de licencia, elija Encabezados de licencia en Propiedades del proyecto.
+ * Para cambiar este archivo de plantilla, elija Herramientas | Plantillas
+ * y abre la plantilla en el editor.
  */
 package actividad_02_ud3_ed;
 
 /**
  * 
- * @author Ana
+ * @author David
  */
 public class CCuenta {
 
@@ -25,9 +25,9 @@ public class CCuenta {
    /**
     * 
     * @param nom Nombre del titular de la cuenta
-    * @param cue
-    * @param sal
-    * @param tipo 
+    * @param cue Nombre de la cuenta
+    * @param sal saldo de la cuenta
+    * @param tipo tipo de cuenta
     */
     public CCuenta (String nom, String cue, double sal, double tipo)
     {
