@@ -3,11 +3,11 @@
  * Para cambiar este archivo de plantilla, elija Herramientas | Plantillas
  * y abre la plantilla en el editor.
  */
-package actividad_02_ud3_ed;
+package Entornordedesarrolo;
 
 /**
  * 
- * @author David
+ * @author David Sánchez Vázquez
  */
 public class CCuenta {
 
@@ -25,9 +25,9 @@ public class CCuenta {
    /**
     * 
     * @param nom Nombre del titular de la cuenta
-    * @param cue Nombre de la cuenta
-    * @param sal saldo de la cuenta
-    * @param tipo tipo de cuenta
+    * @param cue Cuenta del titular
+    * @param sal Saldo de la cuenta
+    * @param tipo Tipo de cuenta
     */
     public CCuenta (String nom, String cue, double sal, double tipo)
     {
@@ -38,7 +38,7 @@ public class CCuenta {
     }
   /**
    * 
-   * @param nom 
+   * @param nom Nombre del titular de la cuenta
    */
     public void asignarNombre(String nom)
     {
